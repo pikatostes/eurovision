@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "name": "Updated Name",
+      "email": "updated@example.com",
+      "id": "1"
+    },
+    {
+      "name": "Updated Name",
+      "email": "updated@example.com",
+      "id": "2"
+    }
+  ],
+  "songs": [
+    {
+      "title": "Esa Diva",
+      "artist": "Melody",
+      "country": "Spain",
+      "year": 2025,
+      "city": "Basel",
+      "image": "./src/assets/melody.jpg",
+      "id": "1"
+    },
+    {
+      "title": "Updated Title",
+      "artist": "Updated Artist",
+      "country": "France",
+      "id": "2"
+    },
+    {
+      "title": "Test",
+      "artist": "Updated Artist",
+      "country": "Spain",
+      "year": 2024,
+      "id": "3"
+    }
+  ]
+}
