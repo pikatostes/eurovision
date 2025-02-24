@@ -19,20 +19,130 @@
       "year": 2025,
       "city": "Basel",
       "image": "./src/assets/melody.jpg",
+      "information": "Melody is a Spanish singer. She represented Spain in the Eurovision Song Contest 2025 with the song 'Esa Diva'.",
       "id": "1"
     },
     {
-      "title": "Updated Title",
-      "artist": "Updated Artist",
-      "country": "France",
+      "title": "ZORRA",
+      "artist": "Nebulossa",
+      "country": "Spain",
+      "year": 2024,
+      "city": "Malmö",
+      "image": "./src/assets/nebulossa.jpg",
+      "information": "Nebulossa represented Spain in the Eurovision Song Contest 2024 with the song 'ZORRA'.",
       "id": "2"
     },
     {
-      "title": "Test",
-      "artist": "Updated Artist",
+      "title": "Eaea",
+      "artist": "Blanca Paloma",
       "country": "Spain",
-      "year": 2024,
+      "year": 2023,
+      "city": "Liverpool",
+      "image": "./src/assets/blanca_paloma.jpg",
+      "information": "Blanca Paloma represented Spain in the Eurovision Song Contest 2023 with the song 'Eaea'.",
       "id": "3"
+    },
+    {
+      "title": "SloMo",
+      "artist": "Chanel",
+      "country": "Spain",
+      "year": 2022,
+      "city": "Turin",
+      "image": "./src/assets/chanel.jpg",
+      "information": "Chanel represented Spain in the Eurovision Song Contest 2022 with the song 'SloMo', achieving a historic third place.",
+      "id": "4"
+    },
+    {
+      "title": "Voy a quedarme",
+      "artist": "Blas Cantó",
+      "country": "Spain",
+      "year": 2021,
+      "city": "Rotterdam",
+      "image": "./src/assets/blas_canto.jpg",
+      "information": "Blas Cantó represented Spain in Eurovision 2021 with 'Voy a quedarme'.",
+      "id": "5"
+    },
+    {
+      "title": "Universo",
+      "artist": "Blas Cantó",
+      "country": "Spain",
+      "year": 2020,
+      "city": "Cancelled",
+      "image": "./src/assets/blas_canto.jpg",
+      "information": "Blas Cantó was set to represent Spain in Eurovision 2020 with 'Universo', but the contest was cancelled due to COVID-19.",
+      "id": "6"
+    },
+    {
+      "title": "La Venda",
+      "artist": "Miki Núñez",
+      "country": "Spain",
+      "year": 2019,
+      "city": "Tel Aviv",
+      "image": "./src/assets/miki_nunez.jpg",
+      "information": "Miki Núñez represented Spain in Eurovision 2019 with 'La Venda'.",
+      "id": "7"
+    },
+    {
+      "title": "Tu canción",
+      "artist": "Alfred & Amaia",
+      "country": "Spain",
+      "year": 2018,
+      "city": "Lisbon",
+      "image": "./src/assets/alfred_amaia.jpg",
+      "information": "Alfred & Amaia represented Spain in Eurovision 2018 with 'Tu canción'.",
+      "id": "8"
+    },
+    {
+      "title": "Do It for Your Lover",
+      "artist": "Manel Navarro",
+      "country": "Spain",
+      "year": 2017,
+      "city": "Kyiv",
+      "image": "./src/assets/manel_navarro.jpg",
+      "information": "Manel Navarro represented Spain in Eurovision 2017 with 'Do It for Your Lover'.",
+      "id": "9"
+    },
+    {
+      "title": "Say Yay!",
+      "artist": "Barei",
+      "country": "Spain",
+      "year": 2016,
+      "city": "Stockholm",
+      "image": "./src/assets/barei.jpg",
+      "information": "Barei represented Spain in Eurovision 2016 with 'Say Yay!'.",
+      "id": "10"
+    },
+    {
+      "title": "Amanecer",
+      "artist": "Edurne",
+      "country": "Spain",
+      "year": 2015,
+      "city": "Vienna",
+      "image": "./src/assets/edurne.jpg",
+      "information": "Edurne represented Spain in Eurovision 2015 with 'Amanecer'.",
+      "id": "11"
+    }
+  ],
+  "editions": [
+    {
+      "year": 2023,
+      "id": "1"
+    },
+    {
+      "year": 2024,
+      "id": "2"
+    },
+    {
+      "year": 2025,
+      "id": "3"
+    },
+    {
+      "year": 2026,
+      "id": "4"
+    },
+    {
+      "year": 2027,
+      "id": "5"
     }
   ]
 }
