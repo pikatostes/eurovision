@@ -1,24 +1,23 @@
-const API_URL = "http://localhost:8000/editions";
-
-// Obtener todas las ediciones
-export const getEditions = async () => {
-  try {
-    const response = await fetch(API_URL);
-    if (!response.ok) {
-      throw new Error(`HTTP error! Status: ${response.status}`);
-    }
-    const data = await response.json();
-
-    // Verificar si la respuesta ya es un array
-    if (!Array.isArray(data)) {
-      console.error("Error: La API no devolvió un array", data);
+// Obtener todas las ediciones desde sql.js
+export const getEditions = async (db) => {
+    try {
+      // Consultar la base de datos para obtener todas las ediciones
+      const result = db.exec("SELECT * FROM editions");
+  
+      // Verificar si la consulta devolvió algún resultado
+      if (result.length === 0 || !result[0].values) {
+        console.error("Error: No se encontraron ediciones en la base de datos");
+        return [];
+      }
+  
+      // Retornar las ediciones (extraemos los valores)
+      return result[0].values.map(row => ({
+        id: row[0],
+        year: row[1]
+      }));
+    } catch (error) {
+      console.error("Error al obtener ediciones:", error);
       return [];
     }
-
-    return data; // Retornamos directamente el array de ediciones
-  } catch (error) {
-    console.error("Error al obtener ediciones:", error);
-    return [];
-  }
-};
-
+  };
+  

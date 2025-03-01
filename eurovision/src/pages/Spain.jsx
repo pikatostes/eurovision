@@ -35,10 +35,31 @@ const Spain = () => {
                 {songs.map((song) => (
                     <Col key={song.id} xs={6} sm={6} md={4} lg={3} className="mb-4">
                         <div className="image-container" onClick={() => handleShow(song)} style={{ cursor: 'pointer' }}>
-                            <Image src={song.image} alt={song.title} fluid rounded className="hover-effect" />
+                            <Image
+                                src={song.image}
+                                alt={song.title}
+                                className="hover-effect"
+                                fluid
+                                rounded
+                                style={{
+                                    width: '100%',
+                                    height: '200px',
+                                    objectFit: 'cover',
+                                    objectPosition: 'center'
+                                }}
+                            />
                             <div className="overlay">
-                                <div className="text">{song.artist} ({song.year})</div>
+                                <div
+                                    className="text"
+                                    style={{
+                                        color: 'white',
+                                        textShadow: '2px 2px 4px black'
+                                    }}
+                                >
+                                    {song.artist}
+                                </div>
                             </div>
+
                         </div>
                     </Col>
                 ))}
@@ -57,8 +78,6 @@ const Spain = () => {
                             </Col>
                             <Col md={6}>
                                 <p><strong>Artista:</strong> {selectedSong.artist}</p>
-                                <p><strong>Año:</strong> {selectedSong.year}</p>
-                                <p><strong>Ciudad:</strong> {selectedSong.city || 'Desconocida'}</p>
                                 <p><strong>Información:</strong> {selectedSong.information}</p>
                             </Col>
                         </Row>
