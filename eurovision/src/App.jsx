@@ -9,9 +9,9 @@ function App() {
     <Router>
       <NavBar />
       <Routes>
-        <Route path="eurovision/" element={<Home />} /> {/* Redirección a /spain */}
-        <Route path="eurovision/spain" element={<Spain />} />
-        <Route path="eurovision/ediciones" element={<Edition />}/>{/* Página temporal para Ediciones */}
+        <Route path="/" element={<Home />} /> {/* Redirección a /spain */}
+        <Route path="/spain" element={<Spain />} />
+        <Route path="/ediciones" element={<Edition />}/>{/* Página temporal para Ediciones */}
       </Routes>
     </Router>
   );
